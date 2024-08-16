@@ -34,6 +34,7 @@ video{
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    pointer-events: none;
 }
 
 header {
@@ -426,7 +427,7 @@ footer p{
         width: auto;
     }
     .abt{
-        height: 90vh;
+        height: auto;
         margin: 2rem 2rem 0 2rem;
     }
     
@@ -455,6 +456,7 @@ footer p{
     
     .abt-content-img img{
         width: 300px;   
+        margin-bottom: 8rem;
     }
     main h1{
         font-size: 34px;
